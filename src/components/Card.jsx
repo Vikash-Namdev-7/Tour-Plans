@@ -7,7 +7,6 @@ function Card({id, name, info, image, price, removeHandler}) {
 
     const description = `${info.substring(0, 200)}.... `;
 
-    console.log()
 
     return (
         <div className="bg-green-400 card">
