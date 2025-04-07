@@ -10,7 +10,7 @@ function Card({id, name, info, image, price, removeHandler}) {
     console.log()
 
     return (
-        <div className="card">
+        <div className="bg-green-400 card">
              <img src={image} className="image" />
 
             <div className="tour-info">
